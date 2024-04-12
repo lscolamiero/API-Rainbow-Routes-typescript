@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm start app"
+    "start": "npm start app",
+    "build": "npx tsc"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,10 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "nodemon": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
   }
 }
